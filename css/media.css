@@ -1,0 +1,621 @@
+
+
+@media screen and (max-width: 1550px) {
+	.header__logo {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(0%, -50%);
+	}
+
+	.work__card {
+		height: 600px;
+	}
+
+	.work h2 {
+		font-size: 40px;
+		line-height: 55px;
+		max-width: 630px;
+	}
+
+	.work p {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.masters__block {
+		margin: 0 30px 0 0;
+		width: 63%;
+	}
+
+	.masters__block:last-child {
+		width: 37%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.header__logo {
+		left: 53%;
+	}
+
+	.category__img {
+		height: 295px;
+	}
+
+	.advantages__border {
+		height: 650px;
+		padding: 100px 20px 0 20px;
+	}
+
+	.footer__info p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.footer__nav h3 {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.footer__nav ul li a {
+		font-size: 16px;
+		line-height: 21px;
+	}
+}
+
+
+@media screen and (max-width: 1300px) {
+	
+}
+
+@media screen and (max-width: 1250px){
+	
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	.header__logo {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+	}
+
+	header {
+		padding: 20px 0;
+	}
+
+	.header__nav ul {
+		gap: 20px;
+	}
+
+	.header__nav ul li a {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.header__links ul {
+		gap: 20px;
+	}
+
+	.header__absolute {
+		top: 16px;
+	}
+
+	.header__logo a img {
+		width: 175px;
+	}
+
+	.advantages__border p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}	
+
+
+@media screen and (max-width: 1050px) {
+	
+
+  
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	.container {
+		padding: 0 15px;
+	}
+
+	.work__card {
+		height: 400px;
+		padding: 0 0 0 20px;
+	}
+
+	.work h2 {
+		font-size: 24px;
+		line-height: 32px;
+		max-width: 360px;
+	}
+
+	.work p {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 15px 0;
+	}
+
+	.work button {
+		font-size: 13px;
+		line-height: 16px;
+		height: 50px;
+	}
+
+	.title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.category__list li {
+		padding: 16px 8px 0 8px;
+	}
+
+	.category__card h3 {
+		font-size: 12px;
+		line-height: 15px;
+		margin: 8px 0 0 0;
+	}
+
+	.category__img {
+		height: 225px;
+	}
+
+	.best__list li {
+		padding: 20px 6px 0 6px;
+	}
+
+	.best__list {
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin: 5px -6px 0 -6px;
+	    padding: 0;
+	}
+
+	.best__img {
+		height: 227px;
+	}
+
+	.best__card h3 {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.best__card p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.rings button {
+		width: 100%;
+		height: 50px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.rings__video {
+		height: 380px;
+	}
+
+	.rings__block {
+		margin: 0 30px 0 0;
+	}
+
+	.advantages {
+		margin: 50px 0;
+	}
+
+	.rings {
+		margin: 60px 0 50px 0;
+	}
+
+	.advantages__border h3 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.advantages__border p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.advantages__border {
+		height: 450px;
+		padding: 50px 20px 0 20px;
+	}
+
+	.masters button {
+		width: 100%;
+		height: 50px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.masters h2 {
+		font-size: 22px;
+		line-height: 31px;
+		margin: 0 0 20px 0;
+	}
+
+	.masters__video {
+		height: 360px;
+	}
+
+	.masters {
+		margin: 50px 0;
+	}
+
+	.stones {
+		margin: 50px 0;
+	}
+
+	.stones__border {
+		padding: 40px 20px 0 20px;
+	}
+
+	.stones h2 {
+		font-size: 24px;
+		line-height: 32px;
+		margin: 0 0 20px 0;
+	}
+
+	.stones p {
+		font-size: 16px;
+		margin: 0 0 20px 0;
+	}
+
+	.stones button {
+		width: 100%;
+		height: 50px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.stones__img {
+		margin: 20px -20px 0 -20px;
+	}
+
+	.quiz h2 {
+		font-size: 20px;
+		line-height: 27px;
+	}
+
+	.quiz {
+		margin: 50px 0;
+	}
+
+	.quiz p {
+		font-size: 14px;
+		line-height: 21px;
+		margin: 0 0 20px 0;
+	}
+
+	.quiz button {
+		width: 100%;
+		height: 50px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.quiz__block {
+		margin: 0 30px 0 0;
+	}
+
+	.subscription h2 {
+		font-size: 24px;
+		line-height: 31px;
+	}
+
+	.subscription {
+		margin: 50px 0 60px 0;
+	}
+
+	.footer__wrap {
+		padding: 40px 0 0 0;
+		flex-wrap: wrap;
+	}
+
+	.footer__block:nth-of-type(1) {
+		width: 100%;
+		padding: 0 0 20px 0;
+	}
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 900px) {
+	.header__nav {
+		display: none;
+	}
+
+	.header__hidden {
+		display: none;
+	}
+
+	.mobile__fixed {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: #fff;
+		padding: 20px 20px;
+		z-index: 3;
+	}
+
+	.header__links ul {
+		justify-content: space-between;
+	}
+
+	/*Burger*/
+
+    .burger {
+        display: flex !important;
+    }
+
+    .mt-munu-mb .header-navigation-wr {
+        display: block !important;
+    }
+
+    header {
+    	padding: 10px 0;
+    }
+
+    footer {
+    	margin: 60px 0 0 0;
+    	padding: 0 0 100px 0;
+    }
+
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.rings__wrap {
+		flex-wrap: wrap;
+	}
+
+	.rings__block {
+		width: 100%;
+		order: 2;
+		margin: 20px 0 0 0;
+	}
+
+	.rings__block:last-child {
+		width: 100%;
+		order: 1;
+	}
+
+	.rings__video {
+		height: 360px;
+	}
+
+	.advantages__block {
+		width: 100%;
+	}
+
+	.quiz__border {
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	.quiz__block {
+		margin: 0;
+		width: 100%;
+		order: 2;
+	}
+
+	.quiz__block:last-child {
+		width: 100%;
+		order: 1;
+		padding: 30px 20px 20px 20px;
+	}
+
+	.footer__block {
+		width: 50%;
+		padding: 0 6px 20px 6px;
+	}
+
+	.footer__wrap {
+		margin: 0 -6px 0 -6px;
+	}
+
+	.footer__block:nth-of-type(1) {
+		padding: 0 6px 20px 6px;
+	}
+
+	.footer__bottom {
+		margin: 10px 0 0 0;
+	}
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	.work__card {
+		background: #000;
+		height: auto;
+		padding: 30px 20px 0 20px;
+	}
+
+	.work__center {
+		height: auto;
+		padding: 0 0 20px 0;
+	}
+
+	.work__text {
+		min-height: 166px;
+	}
+
+	.work__img {
+		position: relative;
+		height: 400px;
+		margin: 0 -20px 0 -20px;
+	}
+
+	.work button {
+		width: 100%;
+	}
+
+	.work h2 {
+		max-width: 100%;
+	}
+
+	.work__center {
+		display: block;
+	}
+
+	.category__list li {
+		width: 50%;
+	}
+
+	.best__list li {
+		width: 50%;
+	}
+
+	.masters__wrap {
+		flex-wrap: wrap;
+	}
+
+	.masters__block {
+		width: 100%;
+		order: 2;
+		margin: 20px 0 0 0;
+	}
+
+	.masters__block:last-child {
+		width: 100%;
+		order: 1;
+	}
+
+	.masters h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 575px) {
+  	.subscription__block {
+  		width: 100% !important;
+  	}
+
+  	.subscription__end {
+  		max-width: 100%;
+  	}
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  	.work__img {
+  		height: 260px;
+  	}
+
+  	.best__img {
+  		height: 130px;
+  	}
+
+  	.footer__nav h3 {
+  		font-size: 14px;
+  		line-height: 21px;
+  	}
+
+  	.footer__nav ul li {
+  		font-size: 14px;
+  		line-height: 17px;
+  	}
+
+  	.footer__nav ul li a {
+  		font-size: 14px;
+  		line-height: 17px;
+  	}
+
+  	.footer__nav ul {
+  		padding: 0 0 0 15px;
+  	}
+
+  	.footer__top {
+  		flex-wrap: wrap;
+  		justify-content: center;
+  	}
+
+  	.footer__logo {
+  		width: 100%;
+  		display: flex;
+  		justify-content: center;
+  	}
+
+  	.footer__contacts {
+  		margin: 0;
+  	}
+
+  	.footer__social {
+  		justify-content: center;
+  	}
+
+  	.footer__bottom {
+  		flex-wrap: wrap;
+  	}
+
+  	.footer__bottom p {
+  		width: 100%;
+  		order: 2;
+  		padding: 20px 0 0 0;
+  		text-align: center;
+  	}
+
+  	.footer__bottom ul {
+  		flex-wrap: wrap;
+  		width: 100%;
+  		order: 1;
+  	}
+
+  	.footer__bottom ul li {
+  		width: 100%;
+  		justify-content: center;
+  		margin: 0 0 10px 0;
+  	}
+
+  	.footer__bottom ul li a {
+  		line-height: 15px;
+  	}
+}
+
+@media screen and (max-width: 420px) {
+  	.work__text {
+		min-height: 198px;
+	}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+	
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+	
+}
